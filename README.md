@@ -47,4 +47,4 @@ npx http-server -p 8080
 
 ## License
 
-MIT License
+WTF Public License
