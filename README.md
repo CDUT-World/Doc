@@ -1,32 +1,50 @@
-<a href="https://github.com/CDUT-World"><img decoding="async" loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-<div align="center">
-<img width="160" src="https://avatars.githubusercontent.com/u/244448618?s=200&v=4" alt="logo"> </img>
-<h1>
-CDUT-WORLD
-</h1>
-</div>
-<div align="center">
-<h2>
+# Doc
+这是 CDUT-World 的文档仓库
 
-</h2>
-</div>
+## 文档网站
 
-----
+本仓库包含一个静态文档网站，用于展示项目文档。
 
-<h1>
-更新详情
-</h1>
+### 在线访问
 
-1. 加入 经济系统 （试加入）
-2. 新增 人偶功能 （创建人偶实现地区常加载）
-3. 更新了主世界的钟的功能
-4. 新增菜单功能
-5. 新镇 家庭火车站
-6. 新增 家庭火车站NPC
-7. 新增 家庭火车站传送功能
+可以通过 GitHub Pages 访问文档网站：`https://cdut-world.github.io/Doc/`
 
-----
+### 本地预览
 
-<a href="http://www.wtfpl.net/"><img
-       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
-       width="80" height="15" alt="WTFPL" /></a>
+要在本地预览文档网站：
+
+```bash
+# 克隆仓库
+git clone https://github.com/CDUT-World/Doc.git
+cd Doc
+
+# 使用 Python 启动简单的 HTTP 服务器
+python3 -m http.server 8080
+
+# 或使用 Node.js
+npx http-server -p 8080
+```
+
+然后在浏览器中访问 `http://localhost:8080`
+
+### 文件结构
+
+- `index.html` - 主页面
+- `styles.css` - 样式表
+- `script.js` - 交互脚本
+
+### 特性
+
+- ✨ 现代化的文档界面
+- 📱 响应式设计，支持移动设备
+- 🎨 清晰的导航结构
+- 🌐 完整的中文支持
+- ⚡ 轻量级，无需构建步骤
+
+## 贡献
+
+欢迎贡献文档内容！请参考文档网站上的贡献指南。
+
+## License
+
+MIT License
